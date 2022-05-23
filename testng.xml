@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+	<listener class-name="com.salesforce.utilities.Listeners"></listener>
+</listeners>
+<parameter name="TC_2_LoginToSalesForce2_expectedPageTitle" value ="Welcome to your free trial not displayed,Test Failed" />
+<parameter name="TC_4_ForgotPassword4B_userName" value ="123" />
+<parameter name="TC_4_ForgotPassword4B_password" value ="22131" />
+  <test name="TestForLoginPage_Chrome" thread-count="3" >
+  <parameter name="browser" value ="chrome" />
+    <classes>
+      <class name="com.salesforce.tests.LoginPageTestscripts"/>
+    </classes>
+  </test> <!-- TestForLoginPage -->
+   <test name="TestForLoginPage_firefox"  thread-count="3">
+  <parameter name="browser" value ="firefox" />
+    <classes>
+      <class name="com.salesforce.tests.LoginPageTestscripts"/>
+    </classes>
+  </test> <!-- TestForLoginPage -->
+<!--
+   <test  name="TestForLoginPage_Edge" thread-count="3">
+  <parameter name="browser" value ="safari" />
+    <classes>
+      <class name="com.salesforce.tests.LoginPageTestscripts"/>
+    </classes>
+  </test> < TestForLoginPage -->
+</suite> <!-- Suite -->

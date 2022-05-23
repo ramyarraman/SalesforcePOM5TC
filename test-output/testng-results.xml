@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-20T23:22:53 CDT" name="Suite" finished-at="2022-05-20T23:24:09 CDT" duration-ms="75938">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T23:22:53 CDT" name="TestForLoginPage_Chrome" finished-at="2022-05-20T23:23:38 CDT" duration-ms="45306">
+      <class name="com.salesforce.tests.LoginPageTestscripts">
+        <test-method is-config="true" signature="setUpTestAllTest()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:22:53 CDT" name="setUpTestAllTest" finished-at="2022-05-20T23:22:53 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestAllTest -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:22:53 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:22:57 CDT" duration-ms="4248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.CheckRemeberMe3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="CheckRemeberMe3()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:22:57 CDT" name="CheckRemeberMe3" finished-at="2022-05-20T23:23:09 CDT" duration-ms="11824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRemeberMe3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:09 CDT" name="tearDown" finished-at="2022-05-20T23:23:09 CDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:09 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:12 CDT" duration-ms="2572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.ForgotPassword4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="ForgotPassword4A()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:12 CDT" name="ForgotPassword4A" finished-at="2022-05-20T23:23:15 CDT" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword4A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:15 CDT" name="tearDown" finished-at="2022-05-20T23:23:15 CDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:15 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:18 CDT" duration-ms="2175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.ForgotPassword4B(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="ForgotPassword4B(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:18 CDT" name="ForgotPassword4B" finished-at="2022-05-20T23:23:21 CDT" duration-ms="3769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword4B -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:21 CDT" name="tearDown" finished-at="2022-05-20T23:23:21 CDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:21 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:24 CDT" duration-ms="2299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.LoginErrorMessage1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="LoginErrorMessage1()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:24 CDT" name="LoginErrorMessage1" finished-at="2022-05-20T23:23:29 CDT" duration-ms="4811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:29 CDT" name="tearDown" finished-at="2022-05-20T23:23:29 CDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:29 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:31 CDT" duration-ms="2219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.LoginToSalesForce2(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="LoginToSalesForce2(java.lang.String)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:31 CDT" name="LoginToSalesForce2" finished-at="2022-05-20T23:23:37 CDT" duration-ms="6289" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome to your free trial not displayed,Test Failed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome to your free trial not displayed,Test Failed] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome to your free trial not displayed,Test Failed] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.salesforce.tests.LoginPageTestscripts.LoginToSalesForce2(LoginPageTestscripts.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSalesForce2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@5cee5251]" started-at="2022-05-20T23:23:38 CDT" name="tearDown" finished-at="2022-05-20T23:23:38 CDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.LoginPageTestscripts -->
+    </test> <!-- TestForLoginPage_Chrome -->
+    <test started-at="2022-05-20T23:23:38 CDT" name="TestForLoginPage_firefox" finished-at="2022-05-20T23:24:09 CDT" duration-ms="30540">
+      <class name="com.salesforce.tests.LoginPageTestscripts">
+        <test-method is-config="true" signature="setUpTestAllTest()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:38 CDT" name="setUpTestAllTest" finished-at="2022-05-20T23:23:38 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestAllTest -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:38 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:41 CDT" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.CheckRemeberMe3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="CheckRemeberMe3()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:41 CDT" name="CheckRemeberMe3" finished-at="2022-05-20T23:23:50 CDT" duration-ms="8974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRemeberMe3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:50 CDT" name="tearDown" finished-at="2022-05-20T23:23:51 CDT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:51 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:53 CDT" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.ForgotPassword4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="ForgotPassword4A()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:53 CDT" name="ForgotPassword4A" finished-at="2022-05-20T23:23:54 CDT" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword4A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:54 CDT" name="tearDown" finished-at="2022-05-20T23:23:55 CDT" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:55 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:23:57 CDT" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.ForgotPassword4B(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="ForgotPassword4B(java.lang.String,java.lang.String)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:57 CDT" name="ForgotPassword4B" finished-at="2022-05-20T23:23:58 CDT" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword4B -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:58 CDT" name="tearDown" finished-at="2022-05-20T23:23:58 CDT" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:23:58 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:24:02 CDT" duration-ms="4184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.LoginErrorMessage1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="LoginErrorMessage1()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:24:02 CDT" name="LoginErrorMessage1" finished-at="2022-05-20T23:24:03 CDT" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:24:03 CDT" name="tearDown" finished-at="2022-05-20T23:24:04 CDT" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpForAllMethods(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:24:04 CDT" name="setUpForAllMethods" finished-at="2022-05-20T23:24:07 CDT" duration-ms="2543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.tests.LoginPageTestscripts.LoginToSalesForce2(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForAllMethods -->
+        <test-method signature="LoginToSalesForce2(java.lang.String)[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:24:07 CDT" name="LoginToSalesForce2" finished-at="2022-05-20T23:24:09 CDT" duration-ms="1981" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome to your free trial not displayed,Test Failed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome to your free trial not displayed,Test Failed] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome to your free trial not displayed,Test Failed] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.salesforce.tests.LoginPageTestscripts.LoginToSalesForce2(LoginPageTestscripts.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSalesForce2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.LoginPageTestscripts@67a20f67]" started-at="2022-05-20T23:24:09 CDT" name="tearDown" finished-at="2022-05-20T23:24:09 CDT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.LoginPageTestscripts -->
+    </test> <!-- TestForLoginPage_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

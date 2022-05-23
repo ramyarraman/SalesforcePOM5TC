@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="TC_4_ForgotPassword4B_password" value="22131"/>
+  <parameter name="TC_2_LoginToSalesForce2_expectedPageTitle" value="Welcome to your free trial not displayed,Test Failed"/>
+  <parameter name="TC_4_ForgotPassword4B_userName" value="123"/>
+  <listeners>
+    <listener class-name="com.salesforce.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TestForLoginPage_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.tests.LoginPageTestscripts">
+        <methods>
+          <include name="setUpTestAllTest"/>
+          <include name="LoginToSalesForce2" invocation-numbers="0"/>
+          <include name="setUpForAllMethods"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.tests.LoginPageTestscripts -->
+    </classes>
+  </test> <!-- TestForLoginPage_Chrome(failed) -->
+  <test thread-count="5" name="TestForLoginPage_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.salesforce.tests.LoginPageTestscripts">
+        <methods>
+          <include name="setUpTestAllTest"/>
+          <include name="LoginToSalesForce2" invocation-numbers="0"/>
+          <include name="setUpForAllMethods"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.tests.LoginPageTestscripts -->
+    </classes>
+  </test> <!-- TestForLoginPage_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
